@@ -1,0 +1,9 @@
+﻿Create 4 private instance variables: title, author, isAvailable, and times checked out
+Default and some overloaded constructors 
+Use arraylist to store objects 
+3 methods: check in, check out, print available
+Check in set isavailable to true
+Check out will increases times check out and set isAvailable to false
+Print will use enhanced for loop and if statement 
+Prints the title and author
+All good 👍
