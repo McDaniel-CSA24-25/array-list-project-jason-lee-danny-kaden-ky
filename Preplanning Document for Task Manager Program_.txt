@@ -1,0 +1,31 @@
+﻿Preplanning Document for Task Manager Program:
+
+
+1. The Problem Definition and goals that needs to be addressed:
+* Ask users what task they want to add in their list
+* Ask users what task they want to remove in their list
+* Display all their tasks at the end when demanded
+* At the end, display the number or the list of task they would need to do
+* BONUS: Ask user to add and manage what task are priorities
+
+
+2. Requirements of the program:
+* Use ArrayList<String> to store tasks.
+* Add tasks with add().
+* Remove tasks by index with remove(index).
+* Display all tasks using a loop and get().
+* Show total tasks with size().
+* BONUS: Implement task prioritization
+
+
+3. What methods or classes might be needed to implement:
+* Class = taskManager
+* Methods:
+   * addTask(String task)
+   * removeTask(int index)
+   * displayTasks()
+   * addPriorityTask()
+   * groupingPriorityTask()
+
+
+4. I didn’t use methods, but I did use a lot of variables and three ArrayList in order to separate the priority into High, Medium, and Low.
