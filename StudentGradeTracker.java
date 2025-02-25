@@ -6,11 +6,11 @@ public class StudentGradeTracker {
         ArrayList<Double> grades = new ArrayList<>();
         ArrayList<Double> pass = new ArrayList<>();
         ArrayList<Double> fail = new ArrayList<>();
-        System.out.println("Welcome! Please enter as many grades as you want(enter -1 to stop)!");
+        System.out.println("Welcome!");
         Scanner scanner = new Scanner(System.in);
         int a = 0;
         while(a == 0){
-            System.out.println("Please enter a grade you want to add(1-100): ");
+            System.out.println("Please enter a grade you want to add(1-100)(-1 to stop): ");
             double grade = scanner.nextDouble();
             if(grade != -1 && grade <= 100 && grade >=0){
                 grades.add(grade);
@@ -22,7 +22,8 @@ public class StudentGradeTracker {
         }
 
         while(a == 0){
-            System.out.println("Please enter a grade you want to remove: ");{
+            boolean removed = false;
+            System.out.println("Please enter a grade you want to remove(-1 to stop): ");{
                 double remove = scanner.nextDouble();
                 if(remove == -1){
                     break;
@@ -30,10 +31,14 @@ public class StudentGradeTracker {
                     for(int i = 0; i < grades.size(); i++){
                         if(grades.get(i) == remove){
                             grades.remove(i);
+                            removed = true;
                         }
-                    }
                 }
+                    if(!removed){
+                        System.out.println("Invalid, please try again.");
+                    }
             }
+        }
         }
 
 
