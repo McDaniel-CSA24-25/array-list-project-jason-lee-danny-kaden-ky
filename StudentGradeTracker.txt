@@ -1,0 +1,9 @@
+Import ArrayList and creat an empty ArrayList to get ready to add grades; also import java.util.Scanner
+Create two other ArrayLists for pass and fail
+Create a scanner and tells user to enter grades
+The user will enter -1 if they want to stop
+After tell user to tell grades that they want to remove
+They will enter -1 if they want to stop
+Create an double data type called average, and loop through the whole array, adding every element to average. After, divide average by arr.size(). In this loop, if the grade is higher than 60 or equal to it, pass array will add it. If it is less than 60, fail array will add it.
+Create 2 other double data types called largest and smallest. Loop through the whole array again, if the next element in the array list is larger, assign largest to that value, else if it is smaller, assign that value to smallest.
+Print Average, Smallest, Largest, Pass, and Fail grades.
