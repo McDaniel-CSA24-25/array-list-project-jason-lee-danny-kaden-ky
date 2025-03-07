@@ -1,0 +1,10 @@
+1. Import Scanner
+2. Import Array List
+3. Import Collections
+4. create an array list named contact
+5. create 2 scanners one for the choice wether or not to insert a contact, and one for the contact it self
+6. while loop, that states while the user answers yes, it will keep going
+7. Inside the loop, the user will choose wether to add a contact and what contact it is
+8. create a for loop that compares the contact the user wants to add with every string in the aray list
+9. If the string already exists, duplicate boolean will be true and the user will be asked to enter again
+10.sort in alphabetical order with Collections.sort(contacts)
